@@ -1,0 +1,89 @@
+body {
+	font-size: 16px;
+	color: #e0e9f0;
+	background-color: #8243d6;
+	font-family: Varela Round;
+}
+
+#header-nav {
+	background-color: #530fad;
+	color: white;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand p {
+	color: #e0e9f0;
+	font-size: 21px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: #e0e9f0;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #8243d6;
+}
+
+
+
+#home {
+	margin-bottom: 40px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: #8243d9;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+	border: 3px solid #8243f9;
+	border-radius: 12px;
+  	box-shadow: 1px 5px 5px 1px #333;
+}
+
+
+#chicken {
+	margin-bottom: 30px;
+}
+
+#beef {
+	margin-bottom: 30px;
+}
+
+#sushi {
+	margin-bottom: 30px;
+}
+
+
+::-webkit-scrollbar
+{
+   width: 10px;
+   background-color: #8243f9;
+}
+
+::-webkit-scrollbar-thumb
+{
+   border-radius: 3px;
+   background: #333;
+}
+
+
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
